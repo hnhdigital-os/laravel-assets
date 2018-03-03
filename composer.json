@@ -1,5 +1,5 @@
 {
-    "name": "roumen/asset",
+    "name": "hnhdigital-os/laravel-assets",
     "description": "Assets manager for Laravel.",
     "homepage": "https://roumen.it/projects/laravel-assets",
     "keywords": ["laravel", "asset", "assets", "manager"],
