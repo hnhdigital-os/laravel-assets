@@ -709,15 +709,14 @@ class Asset
 	public static function js($name = 'footer')
 	{
 		static::checkEnv();
-
-		$type = '';
-		$defer = '';
-		$async = '';
-
 		if (!empty(static::$js[$name]))
 		{
 			foreach(static::$js[$name] as $file)
 			{
+				$type = '';
+				$defer = '';
+				$async = '';
+
 				if (!empty(static::$jsParams[$name][$file]))
 				{
 					if (!empty(static::$jsParams[$name][$file]['type'])) $type = static::$jsParams[$name][$file]['type'];
